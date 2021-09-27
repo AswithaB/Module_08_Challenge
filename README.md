@@ -33,7 +33,6 @@ Here, the process will be completed from within one single Function.
 ### Deliverable 1
 
 Write an ETL Function to Read Three Data Files.
-
 1. Convert the Wikipedia JSON File to a Pandas DataFrame; display the DataFrame in `ETL_function_test.ipynb`.
 2. Convert the Kaggle Metadata File to a Pandas DataFrame; display the DataFrame in `ETL_function_test.ipynb`.
 3. Convert the MovieLens ratings File to a Pandas DataFrame; display the DataFrame in `ETL_function_test.ipynb`.
@@ -41,7 +40,6 @@ Write an ETL Function to Read Three Data Files.
 ### Deliverable 2
 
 Extract and Transform the Wikipedia Data
-
 1. Filter out TV shows and create wiki_movies_df DataFrame.
 2. Use a `try-except` block to catch errors while extracting IMDb IDs with a regular expression and dropping duplicate IDs.
 3. Use a list comprehension to keep columns with non-null values.
@@ -53,7 +51,6 @@ Extract and Transform the Wikipedia Data
 ### Deliverable 3
 
 Extract and Transform the Kaggle Data
-
 1. Clean the Kaggle Metadata.
 2. Merge the Wikipedia and Kaggle DataFrames.
 3. Drop unnecessary columns.
@@ -68,7 +65,6 @@ Extract and Transform the Kaggle Data
 ### Deliverable 4
 
 Create the Movie Database.
-
 1. Drop any pre-existing Tables in Database.
 2. Load `movies` Table with data from movies_df and `ratings` Table with raw data from `ratings.csv`.
 3. Query Database for Total Row Count of each newly created Table.
